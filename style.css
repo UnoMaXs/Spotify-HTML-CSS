@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  display: flex;
+  background-color: rgb(38, 38, 40);
+  padding: 0 0;
+}
+.caja {
+  display: flex;
+  justify-content: flex-start;
+}
+.logo {
+  padding-top: 5%;
+  padding-left: 100px;
+  padding-bottom: 0%;
+  padding-right: 95px;
+  float: right;
+  margin: auto;
+}
+nav {
+  display: block;
+}
+nav li {
+  justify-content: space-between;
+  display: inline-block;
+  margin: 0 0 0 90px;
+  padding-left: 0%;
+  padding-top: 15px;
+}
+nav input {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+body {
+  background-color: rgb(21, 22, 24);
+}
+
+table {
+  border-collapse: separate;
+  text-indent: initial;
+  border-spacing: 2px;
+  padding-top: 215px;
+  margin: auto;
+}
+th,
+td {
+  padding-top: 20px;
+  padding-bottom: 70px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  margin: right;
+}
+.albums {
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.albums li {
+  display: inline-table;
+  text-align: center;
+  width: 12%;
+  vertical-align: top;
+  margin: 15px 30px;
+  padding: 30px 0%;
+  box-sizing: border-box;
+  border-radius: 35px;
+}
+.albums li:hover {
+  border-color: white;
+}
+.albums li:active {
+  border-color: #088c19;
+}
+.albums h2 {
+  font-family: raleway;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.albums li:hover h2 {
+  font-size: 33px;
+}
+
+.albums img {
+  margin: -25px 0px;
+  border-radius: 10px;
+}
+
+.album-descripcion {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  margin-top: -20px;
+}
+.container-1 {
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+.container-1 input#search {
+  font-family: "Helvetica";
+  width: 300px;
+  height: 50px;
+  background: rgb(50, 50, 53);
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #63717f;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.container-1 input#search::-webkit-input-placeholder {
+  color: #65737e;
+}
+.container-1 input#search:-moz-placeholder {
+  /* Firefox 18- */
+  color: #65737e;
+}
+.container-1 input#search::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #65737e;
+}
+.container-1 input#search:-ms-input-placeholder {
+  color: #65737e;
+}
+.container-1 .icon {
+  position: absolute;
+  top: 50%;
+  margin-left: 17px;
+  margin-top: 17px;
+  z-index: 1;
+  color: rgb(143, 142, 148);
+}
+a {
+  color: #FF0000;
+  text-decoration: none;
+}
